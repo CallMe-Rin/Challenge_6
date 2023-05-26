@@ -1,0 +1,130 @@
+.why-us .card-body {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	cursor: pointer;
+	transition: .5s ease;
+	overflow: hidden;
+  }
+  
+  /* custom yellow transition */
+  
+  .why-us .card-body.yellow:hover * {
+	z-index: 9;
+	color: white;
+  }
+  
+  .why-us .card-body.yellow::before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #F9CC00;
+	transition: .5s ease;
+	clip-path: circle(7% at 32.3px 35.3px);
+  }
+  
+  .why-us .card-body:hover.yellow::before {
+	clip-path: circle(100%);
+	border-radius: 5px;
+  }
+  
+  /* end */
+  
+  /* custom red transition */
+  
+  .why-us .card-body.red:hover * {
+	z-index: 9;
+	color: white;
+  }
+  
+  .why-us .card-body.red::before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	border-radius: 1px;
+	width: 100%;
+	height: 100%;
+	background-color: #FA2C5A;
+	transition: .5s ease;
+	clip-path: circle(7% at 32.3px 34.3px);
+  }
+  
+  .why-us .card-body:hover.red::before {
+	clip-path: circle(100%);
+	border-radius: 5px;
+  }
+  
+  /* end */
+  
+  /* custom red transition */
+  
+  .why-us .card-body.blue:hover * {
+	z-index: 9;
+	color: white;
+  }
+  
+  .why-us .card-body.blue::before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	border-radius: 1px;
+	width: 100%;
+	height: 100%;
+	background-color: #0D28A6;
+	transition: .5s ease;
+	clip-path: circle(7% at 32.3px 34.3px);
+  }
+  
+  .why-us .card-body:hover.blue::before {
+	clip-path: circle(100%);
+	border-radius: 5px;
+  }
+  
+  /* end */
+  
+  /* custom red transition */
+  
+  .why-us .card-body.green:hover * {
+	z-index: 9;
+	color: white;
+  }
+  
+  .why-us .card-body.green::before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	border-radius: 1px;
+	width: 100%;
+	height: 100%;
+	background-color: #5CB85F;
+	transition: .5s ease;
+	clip-path: circle(7% at 32.3px 35.3px);
+  }
+  
+  .why-us .card-body:hover.green::before {
+	clip-path: circle(100%);
+	border-radius: 5px;
+  }
+  
+  /* end */
+  
+  .why-us .card-body p:nth-child(2) {
+	margin-top: 5%;
+	font-weight: 600;
+	font-size: 17px;
+  }
+  
+  .why-us .card-body .bi {
+	color: white;
+	font-size: 20px;
+	border-radius: 20px;
+	padding: 3px 6px;
+	z-index: 1;
+  }
+  
